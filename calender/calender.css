@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 2vmin;
+    padding: 0;
+}
+
+.heading{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100vw;
+    height: 20vh;
+}
+
+.button{
+    font-size: 7vmin;
+    text-align: center;
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.monthYear{
+    font-size: 7vmin;
+}
+.month{
+    width: 100vw;
+    height: 80vh;
+}
+.week{
+    border: 1px solid black;
+    text-align: center;
+    padding:1px;
+}
+
+.days{
+    border:2px solid black;
+    font-size: 3vmin;
+    color: rgb(101, 94, 94);
+    background-color: orange ;
+    color:wheat;
+    padding: 1.5vmin;
+}
+
+.week-cell{
+    font-size: 4vmin;
+    color: rgb(101, 94, 94);
+    background-color: orange ;
+    /* rgb(49, 99, 206); */
+    color:wheat;
+}
+
+.date-cell{
+    border: 1px solid black;
+    font-size: 9vmin;
+    text-decoration: none;
+    background-color: rgb(83, 130, 231);
+
+}
+.date-cell.empty-cell{
+    background-color: rgb(126, 154, 214);
+}
+.date-cell.today{
+    background-color: greenyellow;
+
+}
